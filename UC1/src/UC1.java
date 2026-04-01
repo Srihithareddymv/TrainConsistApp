@@ -12,7 +12,7 @@ public class UC1 {
         List<String> trainConsist = new ArrayList<>();
 
         // Display Initial Bogie Count
-        System.out.println("Train consist initialized.");
+        System.out.println("Train consist ---------initialized.");
         System.out.println("Initial number of bogies: " + trainConsist.size());
 
         // Program continues...
