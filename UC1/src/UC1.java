@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class TrainUC1 {
+public class UC1 {
 
     public static void main(String[] args) {
 
