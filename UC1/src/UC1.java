@@ -6,7 +6,7 @@ public class UC1 {
     public static void main(String[] args) {
 
         // Welcome Message
-        System.out.println("=== Train Consist Management App ===");
+        System.out.println("=== Train    Consist Management App ===");
 
         // Initialize Train Consist (Empty List)
         List<String> trainConsist = new ArrayList<>();
