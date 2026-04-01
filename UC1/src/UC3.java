@@ -12,7 +12,7 @@ public class UC3 {
 
         // Adding bogie IDs (including duplicates)
         bogieIDs.add("BG101");
-        bogieIDs.add("BG102");
+        bogieIDs.add("BG10  2");
         bogieIDs.add("BG103");
         bogieIDs.add("BG101"); // Duplicate
         bogieIDs.add("BG102"); // Duplicate
