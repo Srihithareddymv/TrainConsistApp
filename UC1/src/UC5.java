@@ -1,26 +1,15 @@
-import java.util.LinkedHashSet;
-import java.util.Set;
+import java.util.*;
 
 public class UC5 {
-
     public static void main(String[] args) {
+        Set<String> train = new LinkedHashSet<>();
 
-        System.out.println("=== Train Consist Management App ===");
+        train.add("Engine");
+        train.add("Sleeper");
+        train.add("Cargo");
+        train.add("Guard");
+        train.add("Sleeper");
 
-        // Create LinkedHashSet for train formation
-        Set<String> trainFormation = new LinkedHashSet<>();
-
-        // Adding bogies in order
-        trainFormation.add("Engine");
-        trainFormation.add("Sleeper");
-        trainFormation.add("Cargo");
-        trainFormation.add("Guard");
-
-        // Attempt to add duplicate
-        trainFormation.add("Sleeper"); // Duplicate (ignored)
-
-        // Display final formation
-        System.out.println("\nFinal Train Formation:");
-        System.out.println(trainFormation);
+        System.out.println(train);
     }
 }
